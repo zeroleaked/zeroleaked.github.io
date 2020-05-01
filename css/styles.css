@@ -1,0 +1,24 @@
+body {
+  background-color: blue;
+  margin: 0;
+  font-size:4rem;
+}
+
+navbar {
+  display: block;
+  height: 10vh;
+  color: white;
+}
+
+navbar img {
+  padding:3rem;
+}
+
+#navbar-options {
+  float: right;
+}
+
+div#content {
+  margin: auto;
+  width:80%;
+}

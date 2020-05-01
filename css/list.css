@@ -1,0 +1,32 @@
+
+
+div#list {
+  width:100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.tab {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tab div {
+  margin: 1rem 0;
+}
+
+.label {
+  background-color: yellow;
+  width: 100%;
+}
+
+.box {
+  margin:0;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+}
