@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: #025196;
   margin: 0;
   font-size:4rem;
 }
@@ -24,7 +24,7 @@ div#content {
 }
 
 footer {
-  background-color: white;
+  background-color: #4a87b6;
   position: fixed;
   bottom: 0;
   width:100%;
