@@ -21,10 +21,12 @@ input, div#list {
 div#list {
   width:30rem;
   background-color: #fdb338;
+  border-radius: 55px;
 }
 
 input#search-text {
   width: 25rem;
+  border-radius: 55px;
 }
 
 input#search-image {
