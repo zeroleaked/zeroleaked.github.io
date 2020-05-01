@@ -1,7 +1,7 @@
 div#content {
   width:100%;
   height:80vh;
-  background-color:blue;
+  background-color:#025196;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -20,7 +20,7 @@ input, div#list {
 
 div#list {
   width:30rem;
-  background-color: yellow;
+  background-color: #fdb338;
 }
 
 input#search-text {
