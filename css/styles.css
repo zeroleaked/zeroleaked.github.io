@@ -22,3 +22,10 @@ div#content {
   margin: auto;
   width:80%;
 }
+
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
