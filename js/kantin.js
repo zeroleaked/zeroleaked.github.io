@@ -1,5 +1,4 @@
 const points = [
-  ['kantin barrack', [-6.891639, 107.611658]],
   ['KKP depan', [-6.892160, 107.610601]],
   ['KKP crcs', [-6.887713, 107.611582]],
   ['KKP saraga', [-6.887450, 107.610111]],
@@ -21,12 +20,14 @@ const points = [
   ['kantin salman', [-6.894253, 107.610978]]
 ]
 
-
-points.map(p => L.marker(p[1]).addTo(mymap).bindPopup(`<b>${p[0]}</b>`));
-
 var mymap = L.map('mapid').setView([-6.8915, 107.6107], 17);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     tileSize: 512,
     zoomOffset: -1
 }).addTo(mymap);
+
+const popup = "<b>KANTIN BARRAC</b><br><p>Kantin Barrac adalah kantin yang terletak di antara Gedung FSRD dan Gedung Planologi SAPPK. Pilihan makanan banyak, harga terjangkau, pemandangannya juga indah!</p><p>funfact: Awalnya bagunan Kantin Barrac bukan diperuntukkan sebagai kantin, loh!</p>"
+L.marker([-6.891639, 107.611658]).addTo(mymap).bindPopup(popup)
+
+points.map(p => L.marker(p[1]).addTo(mymap));//.bindPopup(`<b>${p[0]}</b>`));
