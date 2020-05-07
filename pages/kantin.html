@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>hiyahiya</title>
+  <title>KANTIN ITB-Ganesha Maps | Kelompok 42 Sendal ITB</title>
 
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/kantin.css">
@@ -12,19 +12,24 @@
   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
   crossorigin=""/>
 
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="../js/jquery.js"></script>
 
 </head>
 
 <body>
   <navbar>
     <a href="../index.html">
-      <img src="../image/logo.png" id="navbar-logo" alt="logo">
+      <img src="../image/logo.png" id="navbar-logo" alt="logo" width="378" height="80">
     </a>
-    <img src="../image/options.png" id="navbar-options" alt="options">
+    <input type="checkbox" id="menunya">
+    <label for="menunya"><img src="../image/opsi.png" id="navbar-options" alt="options" width="101" height="80"></label>
+    <ul id="memenunya">
+      <li><a>ABOUT</a></li>
+      <li><a>KEBIJAKAN</a></li>
+      <li><a>KONTAK</a></li>
+    </ul>
+    <div id="judul-konten"><h1>KANTIN</h1></div>
   </navbar>
-  <h1>KANTIN</h1>
   <div id="content">
     <div class="container">
      <div id="mapid"></div>

@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>hiyahiya</title>
+  <title>ITB-Ganesha Maps | Kelompok 42 Sendal ITB</title>
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/index.css">
 
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="/js/jquery.js"></script>
   <script src="js/scripts.js"></script>
 
 </head>
@@ -17,25 +17,27 @@
 <body>
   <navbar>
     <a href="index.html">
-      <img src="image/logo.png" id="navbar-logo" alt="logo">
+      <img src="image/logo.png" id="navbar-logo" alt="logo" width="378" height="80">
     </a>
-    <img src="image/options.png" id="navbar-options" alt="options">
-    <!-- <ul>
+    <input type="checkbox" id="menunya">
+    <label for="menunya"><img src="image/opsi.png" id="navbar-options" alt="options" width="101" height="80"></label>
+    <ul id="memenunya">
       <li><a>ABOUT</a></li>
       <li><a>KEBIJAKAN</a></li>
       <li><a>KONTAK</a></li>
-    </ul> -->
+    </ul>
   </navbar>
-  <div id="content">
-    <h1>AYO TELUSURI KAMPUS!</h1>
-    <form>
+<div id="content">
+    <h1><img src="image/ayo.png" width="659" height="200"></h1>
+    <div id="penampang"><form>
       <input type="text" id="search-text" name="search-text" placeholder="Ketik di sini...">
-      <input type="image" id="search-image" src="image/search.png" alt="Submit" width="80" height="80">
+      <input type="image" id="search-image" src="image/zoom.png" alt="Submit" width="80" height="80">
     </form>
-    <h2>atau</h2>
+  <p>atau</p>
     <a href="pages/list.html">
-      <div id="list"><h3>LIST TEMPAT</h3></div>
+      <div id="list"><p style="margin: 0;">LIST TEMPAT</p></div>
     </a>
+  </div>
   </div>
 
   <footer>

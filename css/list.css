@@ -4,17 +4,22 @@ div#list {
 
 h1 {
   font-size: 4rem;
+  font-family:Quicksand;
 }
 
 .tab {
-  padding: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+padding: 15px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .tab div {
-  margin: 1rem 0;
+padding: 2rem;
+font-size: 3rem;
+text-align: center;
+margin: 15px 0;
+cursor: pointer;
 }
 
 .label {
@@ -24,6 +29,9 @@ h1 {
 }
 
 .box {
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin:0;
   width: 15rem;
   height: 15rem;
