@@ -28,7 +28,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(mymap);
 
 let popup = "<b>KANTIN BARRAC</b><br><p>Kantin Barrac adalah kantin yang terletak di antara Gedung FSRD dan Gedung Planologi SAPPK. Pilihan makanan banyak, harga terjangkau, pemandangannya juga indah!</p><p>funfact: Awalnya bangunan Kantin Barrac bukan diperuntukkan sebagai kantin, loh!</p>"
-const popup_options = '<div class="popup-option"><img src="../image/rute.png"></div><a href="../pages/foto.html"><div class="popup-option"><img src="../image/foto.png"></div></a><div class="popup-option"><img src="../image/share.png"></div>'
+const popup_options = '<div class="popup-option"><img src="../image/rute.png" width="12px" height="12px"></div><a href="../pages/foto.html"><div class="popup-option"><img src="../image/foto.png" width="12px" height="12px"></div></a><div class="popup-option"><img src="../image/share.pn" width="12px" height="12px"></div>'
 popup += popup_options;
 L.marker([-6.891639, 107.611658]).addTo(mymap).bindPopup(popup)
 
