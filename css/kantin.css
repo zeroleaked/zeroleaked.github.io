@@ -23,15 +23,3 @@ padding: 0 5% 30px;
 #judul-konten h1 {
     margin: 0;
 }
-
-.leaflet-popup-content-wrapper {
-    background: #fdb338;
-    color: #333;
-    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
-}
-
-.leaflet-popup-content-wrapper .leaflet-popup-content {
-}
-
-.leaflet-popup-tip-container {
-}
