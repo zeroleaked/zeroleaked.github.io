@@ -35,6 +35,10 @@ nav li a {
   color: white;
 }
 
+nav form {
+  display: none;
+}
+
 nav #login-form {
   background-color: DimGrey;
   display: flex;
@@ -66,8 +70,4 @@ nav .logout-link button {
   background-color: inherit;
   border: none;
   color: inherit;
-}
-
-nav form {
-  display:none;
 }
