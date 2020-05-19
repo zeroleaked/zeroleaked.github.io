@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/prediction-thread.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/base.js"></script>
+
+<nav>
+  <ul>
+    <li style="float:left"><a href="https://pasar-ganyang.herokuapp.com/">home</a></li>
+
+    <li><span class="user-button">adam</span></li>
+
+  </ul>
+
+
+  <form class="logout-link" action="https://pasar-ganyang.herokuapp.com/accounts/logout/" method="post" style="display: none;">
+    <input type="hidden" name="csrfmiddlewaretoken" value="Js1ft1skFcBr5Hgci5XGJJgeCMa3nlYUSXzL3kj03gGkzueQ8kB1sNiy6Ziz4EIC">
+    <button type="submit">logout</button>
+  </form>
+
+  <form class="site-form" action="https://pasar-ganyang.herokuapp.com/accounts/login/" method="post" id="login-form" style="display: none;">
+    <input type="hidden" name="csrfmiddlewaretoken" value="Js1ft1skFcBr5Hgci5XGJJgeCMa3nlYUSXzL3kj03gGkzueQ8kB1sNiy6Ziz4EIC">
+    <label for="id_username" style="display: none;">Username:</label>
+    <input type="text" name="username" autofocus="" autocapitalize="none" autocomplete="username" maxlength="150" required="" id="id_username" placeholder="username">
+    <label for="id_password" style="display: none;">Password:</label>
+    <input type="password" name="password" autocomplete="current-password" required="" id="id_password" placeholder="password">
+    <input type="submit" value="Login">
+  </form>
+</nav>
+
+
+<div class="content">
+
+  <title>Jokowi 3 Periode</title>
+  <h1>Jokowi 3 Periode</h1>
+
+  <ul>
+  options:
+
+  <li>Ya</li>
+
+  <li>Tidak</li>
+
+  </ul>
+  <div class="game">
+
+    <div class="bids">
+
+      <table>
+        <tbody><tr>
+          <th>Name</th>
+          <th>Stance</th>
+          <th>Point</th>
+          <th>Time</th>
+        </tr>
+
+
+        <tr>
+          <td>adam</td>
+          <td>Tidak</td>
+          <td>5</td>
+          <td><span style="font-size:2rem">9&nbsp;hours, 15&nbsp;minutes</span></td>
+        </tr>
+
+
+
+      </tbody></table>
+    </div>
+
+    prediction board
+
+    open
+    <br>
+
+
+    <a href="https://pasar-ganyang.herokuapp.com/3/add-bid/">New Bid</a>
+
+  </div>
+
+
+  <div class="discussion">
+
+    <div class="post">
+      mas_dwi : Jokowi menang pemilu 2024
+    </div>
+
+    <div class="post">
+      adam : ...
+    </div>
+
+
+    <a href="https://pasar-ganyang.herokuapp.com/3/add-post/">Add Post</a>
+
+  </div>
+
+
+</div>
+
+
+</body></html>
