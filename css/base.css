@@ -35,10 +35,6 @@ nav li a {
   color: white;
 }
 
-nav form {
-  display: none;
-}
-
 nav #login-form {
   background-color: DimGrey;
   display: flex;
