@@ -67,3 +67,7 @@ nav .logout-link button {
   border: none;
   color: inherit;
 }
+
+nav form {
+  display:hidden;
+}
