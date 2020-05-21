@@ -47,11 +47,10 @@
 <title>Signup</title>
 <h1>Signup</h1>
 <form class="site-form" action="https://pasar-ganyang.herokuapp.com/accounts/signup/" method="post">
-  <input type="hidden" name="csrfmiddlewaretoken" value="d2UBoI2HoBG8pTOcZlY5PNoQp0hKiBavmxs7Y1TnMFL1TGMQPACqyRqaTdpgZUUd">
-  <label for="id_username">Username:</label><input type="text" name="username" maxlength="150" autocapitalize="none" autocomplete="username" autofocus="" required="" id="id_username"><br><span class="helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>
-  <label for="id_password1">Password:</label><input type="password" name="password1" autocomplete="new-password" required="" id="id_password1"><br><span class="helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></span>
-  <label for="id_password2">Password confirmation:</label><input type="password" name="password2" autocomplete="new-password" required="" id="id_password2"><br><span class="helptext">Enter the same password as before, for verification.</span>
-  <input type="submit" ,="" value="Signup">
+ <input type="username" class="helptext" placeholder="Your Username" name="username" maxlength="150" autocapitalize="none" id="id_username" required="">
+ <input type="password" class="helptext" placeholder="Your Password" id="id_password1" class="helptext" required="">
+ <input type="password" class="helptext" placeholder="Password Confirmation" id="id_password2" name="password2" required="">
+ <button type="button" class="content" id="id_button">Sign Up</button>
 </form>
 
 
