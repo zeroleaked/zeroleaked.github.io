@@ -1,4 +1,8 @@
 #id_username, #id_password1, #id_password2 {
     height: 1.5rem; 
     font-size: 5vw;
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
 }
