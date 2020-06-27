@@ -1,0 +1,54 @@
+.bar {
+    fill: #3498db;
+    rx: 7;
+  }
+
+  .axis {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  .legend {
+      padding: 5px;
+      font: 10px sans-serif;
+      background: yellow;
+      box-shadow: 2px 2px 1px #888;
+  }
+
+  .tooltip {
+      background: #eee;
+      box-shadow: 0 0 5px #999999;
+      color: #333;
+      font-size: 12px;
+      left: 130px;
+      padding: 10px;
+      position: absolute;
+      text-align: center;
+      top: 95px;
+      z-index: 10;
+      display: block;
+      opacity: 0;
+  }
+
+  .zero {
+    stroke: red;
+    stroke-width: 2px;
+  }
+
+.inisial {
+  font-family: "sans-serif";
+  font-size: 10px;
+  text-anchor:middle;
+  fill: white;
+}
+
+.inisial-box {
+  fill: grey;
+  rx: 5;
+}
