@@ -22,3 +22,19 @@ nav a {
   text-decoration: none;
   color: white;
 }
+
+.content {
+  margin: 4vh;
+}
+
+.content h1 {
+  font-size: 9vh;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.content p {
+  font-size: 3vh;
+  font-weight: lighter;
+  margin: 0;
+}

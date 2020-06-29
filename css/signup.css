@@ -1,8 +1,46 @@
-#id_username, #id_password1, #id_password2 {
-    height: 1.5rem; 
-    font-size: 5vw;
-    width: 300px;
-    padding: 20px;
-    margin: 8% auto 0;
-    text-align: center;
+.content form {
+  margin: 3vh 0;
+}
+
+.content form>* {
+  margin: 1vh 0;
+  width: 100%
+}
+
+.content input {
+  display: block;
+  width: 100%;
+}
+
+.content input[type*="text"],
+.content input[type*="password"] {
+  box-sizing: border-box;
+  font-size: 3vh;
+  padding: 1vh;
+  background-color: LightGrey;
+  border: none;
+}
+
+.content form a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.content form label,
+.content form a {
+  font-size: 1.5vh;
+  color: DarkGrey;
+}
+
+.content input[type*="submit"] {
+  border-radius: 2vh;
+  font-size: 3vh;
+  padding: 1vh;
+  background-color: FireBrick;
+  border: none;
+  color: white;
+  margin-top: 10vh;
+  font-style: italic;
+  font-size: 7vh;
 }
