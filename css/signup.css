@@ -1,9 +1,9 @@
 .content form {
-  margin: 3vh 0;
+  margin: 5vw 0;
 }
 
 .content form>* {
-  margin: 1vh 0;
+  margin: 2vw 0;
   width: 100%
 }
 
@@ -15,8 +15,8 @@
 .content input[type*="text"],
 .content input[type*="password"] {
   box-sizing: border-box;
-  font-size: 3vh;
-  padding: 1vh;
+  font-size: 5vw;
+  padding: 2vw;
   background-color: LightGrey;
   border: none;
 }
@@ -34,13 +34,13 @@
 }
 
 .content input[type*="submit"] {
-  border-radius: 2vh;
-  font-size: 3vh;
-  padding: 1vh;
+  border-radius: 4vw;
+  font-size: 5vw;
+  padding: 2vw;
   background-color: FireBrick;
   border: none;
   color: white;
-  margin-top: 10vh;
+  margin-top: 24vw;
   font-style: italic;
-  font-size: 7vh;
+  font-size: 12vw;
 }
