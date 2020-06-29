@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+nav {
+  display: block;
+  background-color: DarkRed;
+  overflow: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  font-size: 3vh;
+  margin: 3vh 4vh;
+  text-decoration: none;
+  color: white;
+}

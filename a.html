@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://pasar-ganyang.herokuapp.com/accounts/signup/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="./a_files/base.css">
+  
+  <script src="./a_files/jquery.min.js"></script>
+  <script src="./a_files/base.js"></script>
+</head><body>
+  
+<nav>
+  <ul>
+    <li style="float:left"><a href="https://pasar-ganyang.herokuapp.com/">home</a></li>
+
+    
+    <li class="login">
+      <span class="login-button">login</span>
+    </li>
+    <li>
+      <a href="https://pasar-ganyang.herokuapp.com/accounts/signup/">
+        signup
+      </a>
+    </li>
+    
+  </ul>
+
+
+  <form class="logout-link" action="https://pasar-ganyang.herokuapp.com/accounts/logout/" method="post" style="display:none">
+    <input type="hidden" name="csrfmiddlewaretoken" value="oFXOaZapt3zC4gbcFzggBDypBIfSvs9WYl0lcAjGGpyjkfmJyaoempfDgLraS7CL">
+    <button type="submit">logout</button>
+  </form>
+
+  <form class="site-form" action="https://pasar-ganyang.herokuapp.com/accounts/login/" method="post" id="login-form" style="display:none">
+    <input type="hidden" name="csrfmiddlewaretoken" value="oFXOaZapt3zC4gbcFzggBDypBIfSvs9WYl0lcAjGGpyjkfmJyaoempfDgLraS7CL">
+    <label for="id_username" style="display: none;">Username:</label><input type="text" name="username" autofocus="" autocapitalize="none" autocomplete="username" maxlength="150" required="" id="id_username" placeholder="username">
+<label for="id_password" style="display: none;">Password:</label><input type="password" name="password" autocomplete="current-password" required="" id="id_password" placeholder="password">
+    <input type="submit" value="Login">
+  </form>
+</nav>
+
+
+<div class="content">
+  
+
+<link rel="stylesheet" type="text/css" href="./a_files/signup.css">
+
+
+<title>Signup</title>
+<h1>Signup</h1>
+<form class="site-form" action="https://pasar-ganyang.herokuapp.com/accounts/signup/" method="post">
+  <input type="hidden" name="csrfmiddlewaretoken" value="oFXOaZapt3zC4gbcFzggBDypBIfSvs9WYl0lcAjGGpyjkfmJyaoempfDgLraS7CL">
+  <label for="id_username">Username:</label><input type="text" name="username" maxlength="150" autocapitalize="none" autocomplete="username" autofocus="" required="" id="id_username"><br><span class="helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>
+<label for="id_password1">Password:</label><input type="password" name="password1" autocomplete="new-password" required="" id="id_password1"><br><span class="helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></span>
+<label for="id_password2">Password confirmation:</label><input type="password" name="password2" autocomplete="new-password" required="" id="id_password2"><br><span class="helptext">Enter the same password as before, for verification.</span>
+  <input type="submit" ,="" value="Signup">
+</form>
+
+
+</div>
+
+
+</body></html>
