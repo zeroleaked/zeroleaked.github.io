@@ -10,6 +10,9 @@
 }
 
 .prediction {
+  display: block;
+  text-decoration: none;
+  color: black;
   background-color: white;
   margin: 3vw 0 0 3vw;
   padding: 3vw 10vw;
