@@ -36,10 +36,16 @@
   display: inline-block;
   height: 4vw;
   width: 4vw;
-  /* background-color: red; */
   border-radius: 50%;
   margin-right: 2vw;
-  /* text-align: right; */
+}
+
+.prediction .red {
+  background-color: red;
+}
+
+.prediction .green {
+  background-color: green;
 }
 
 .more-predictions {
