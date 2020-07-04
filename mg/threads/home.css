@@ -1,0 +1,92 @@
+.content {
+  margin: 6vw 0 6vw 6vw;
+}
+
+.predictions {
+  background-color: LightGrey;
+  overflow: hidden;
+  border-radius: 10vw 0 0 10vw;
+  /* padding: 20%; */
+}
+
+.prediction {
+  background-color: white;
+  margin: 3vw 0 0 3vw;
+  padding: 3vw 10vw;
+  border-radius: 10vw 0 0 10vw;
+}
+
+.prediction .title {
+  font-weight: lighter;
+  margin: 0;
+  font-size: 5vw;
+}
+
+.prediction .time {
+  display: inline-block;
+  margin: 2vw 0 0 0;
+  font-size: 4vw;
+  font-weight: lighter;
+}
+
+.prediction .dot {
+  display: inline-block;
+  height: 4vw;
+  width: 4vw;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 2vw;
+  /* text-align: right; */
+}
+
+.more-predictions {
+  display: block;
+  text-align: right;
+  margin: 3vw 4vw;
+    text-decoration: none;
+}
+
+.more-predictions a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 4vw;
+}
+
+.threads h2 {
+  display: inline-block;
+  font-size: 5vw;
+  font-weight: normal;
+  color: Grey;
+  margin-top: 10vw;
+  margin-right: 3vw;
+}
+
+.new-thread {
+  text-decoration: none;
+}
+
+.thread {
+  background-color: LightGrey;
+  border: 2vw solid LightGrey;
+  border-radius: 10vw 0 0 10vw;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.thread .dot {
+  display: inline-block;
+  background-color: white;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.thread .title {
+  margin-left: 2vw;
+  font-size: 4vw;
+}
