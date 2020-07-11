@@ -184,7 +184,7 @@ $(function() {
         success: () => {
           console.log('success!');
           // $("#main-form").trigger('reset');
-          $('.success').fadeIn(200);
+          $('.success').fadeIn();
         }
       });
     })
