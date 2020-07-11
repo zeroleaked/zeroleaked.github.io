@@ -16,6 +16,7 @@ body {
 
 #logo {
   height: 20vw;
+  margin-left: 2vw;
 }
 
 .dots {
@@ -81,6 +82,8 @@ form>* {
   box-shadow: 2vw 2vw olive;
   padding: 4vw;
   font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: bold;
   font-size: 4vw;
 }
 
@@ -285,10 +288,44 @@ form>* {
   height: 15%;
   font-size: 7vw;
   color: white;
-  background-color: red;
+  background-color: FireBrick;
   font-weight: bold;
   border: none;
   border-radius: 2vw;
-  box-shadow: 2vw 2vw DarkRed;
-  margin: 0 auto;
+  box-shadow: 2vw 2vw maroon;
+}
+
+#submitting {
+  height: 100vh;
+  weight: 100vw;
+  background-color: DarkOrange;
+  z-index: 1;
+  position: fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+}
+
+#submitting .logo {
+  width: 50vw;
+  margin: 25vw 25vw 0 25vw;
+  display: inline;
+  /* margin: 0 auto; */
+}
+
+#submitting .tick {
+  width: 30vw;
+  margin-left: 35vw;
+}
+
+#submitting .dot {
+  margin-top: 30vw;
+  margin-left: 41vw;
+  background-color: FireBrick;
+}
+
+#submitting .dot img{
+  width: 18vw;
+  padding: 4vw
 }

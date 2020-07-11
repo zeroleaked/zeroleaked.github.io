@@ -143,9 +143,6 @@ $(function() {
       $('.dot#second img').show();
     })
 
-    // $('#next1').click()
-    // $('#next2').click()
-
     $('#third-form').append($('<button/>', {
         type: 'submit',
         id: 'submit-form',
@@ -159,6 +156,7 @@ $(function() {
     const checkboxes = ['Buta Huruf', 'Keterampilan', 'Kesehatan', 'Kekurangan Modal'];
     $('#submit-form').on('click', function(e) {
       e.preventDefault();
+      $('#submitting').slideDown();
       const result = $form.serializeObject();
       for (cb of checkboxes) {
         if (result[cb]) {
@@ -174,7 +172,8 @@ $(function() {
         data: result,
         success: () => {
           console.log('success!');
-          $("#main-form").trigger('reset');
+          // $("#main-form").trigger('reset');
+          $('.success').fadeIn(200);
         }
       });
     })

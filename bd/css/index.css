@@ -1,0 +1,61 @@
+body {
+  background-color: DarkOrange;
+  font-family: 'Roboto';
+  color: #3f3f3f;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span.title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15vw;
+}
+
+img {
+  width: 70vw;
+}
+
+a {
+  height: 16vw;
+  width: 60vw;
+  padding: 3vw;
+  border-radius: 2vw;
+  text-align: center;
+  text-decoration: none;
+  color: #3f3f3f;
+  background-color: peru;
+  box-shadow: 2vw 2vw SaddleBrown;
+  font-size: 8vw;
+  font-style: italic;
+  /* font-family: 'Roboto Condensed'; */
+  font-weight: 900;
+}
+
+span.desc {
+  margin-top: 16vw;
+  font-size: 3vw;
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: bold;
+}
+
+span.credit {
+  font-size: 3vw;
+  padding: 3vw;
+  position: fixed;
+  display: block;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
