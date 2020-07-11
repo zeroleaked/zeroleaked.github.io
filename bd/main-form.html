@@ -1,0 +1,72 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main-form.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main-form.css">
+</head>
+<body>
+  <div class="header">
+    <img src="images/logo-text.png" alt="logo" id="logo"/>
+  </div>
+
+  <div class="dots">
+    <span class="dot active" id="first">
+      <img src="images/person.webp" alt="person"/>
+    </span>
+    <span class="dot" id="second">
+        <img src="images/circle.webp" alt="circle" style="display:none;"/>
+    </span>
+    <span class="dot" id="third">
+      <img src="images/question.png" alt="?" style="display:none;"/>
+    </span>
+  </div>
+
+  <form id="main-form">
+    <div id="first-form">
+      <div class="first-inputs">
+        <input type="text" name="Nama Lengkap Petugas" placeholder="Nama Lengkap"></input>
+        <input type="text" name="NIK Petugas" placeholder="Nomor Induk Kependudukan"></input>
+        <input type="text" name="Jabatan Petugas" placeholder="Jabatan"></input>
+      </div>
+      <img src="images/guy.png" alt="guy"/>
+      <span id="guy-text">DATA DIRI PETUGAS</span>
+      <button class="next" id="next1">Berikutnya</button>
+    </div>
+    <div id="second-form" style="display:none">
+      <span class="title">DATA TARGET PENERIMA PELATIHAN</span>
+    </div>
+    <div id="third-form" style="display:none">
+      <div id="kendala">
+        <div class="real-label">KENDALA YANG MASIH DIHADAPI OLEH TARGET</div>
+        <div class="desc-label" style="margin-left: 5vw;margin-bottom:3vw;">dapat memilih dari satu</div>
+        <label class="container">Buta Huruf
+          <input type="checkbox" name="Buta Huruf">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Keterampilan
+          <input type="checkbox" name="Keterampilan">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Kesehatan
+          <input type="checkbox" name="Kesehatan">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Kekurangan Modal
+          <input type="checkbox" name="Kekurangan Modal">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="penghasilan">
+        <div class="real-label" style="text-align:center">PENGHASILAN SEBULAN</div>
+        <input type="text" name="Penghasilan" placeholder="Rp."></input>
+        <div class="desc-label">apabila Target tidak memiliki penghasilan, maka kolom diisi angka 0</div>
+      </div>
+      <textarea id="deskripsi" name="Deskripsi" placeholder="Deskripsi Kendala Lebih Lanjut..." rows="4" cols="50"></textarea>
+      <button class="back" id="back3"><span>&larr;</span></button>
+    </div>
+  </form>
+</body>
