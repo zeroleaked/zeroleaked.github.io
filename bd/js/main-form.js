@@ -23,65 +23,76 @@ $(function() {
         "name":"NIK",
         "placeholder":"Nomor Induk Kependudukan Target",
         "width":"75%",
+        "type":"number",
       },
       {
         "name":"Jenis Kelamin",
         "placeholder":"L / P",
         "width":"20%",
+        "type":"text",
       },
       {
         "name":"Nama Lengkap",
         "placeholder":"Nama Lengkap Target",
         "width":"100%",
+        "type":"text",
       },
       {
         "name":"Alamat Rumah",
         "placeholder":"Alamat Rumah Target",
         "width":"100%",
+        "type":"text",
       },
       {
         "name":"RT",
         "placeholder":"RT",
         "width":"15%",
+        "type":"number",
       },
       {
         "name":"RW",
         "placeholder":"RW",
         "width":"15%",
+        "type":"number",
       },
       {
         "name":"Desa",
         "placeholder":"Desa",
         "width":"60%",
+        "type":"text",
       },
       {
         "name":"Kelurahan",
         "placeholder":"Kelurahan",
         "width":"47.5%",
+        "type":"text",
       },
       {
         "name":"Kecamatan",
         "placeholder":"Kecamatan",
         "width":"47.5%",
+        "type":"text",
       },
       {
         "name":"Kabupaten Kota",
         "placeholder":"Kabupaten / Kota",
         "width":"100%",
+        "type":"text",
       },
       {
         "name":"Provinsi",
         "placeholder":"Provinsi",
         "width":"100%",
+        "type":"text",
       }
     ];
 
     for (input of first_inputs) {
-
       $('#second-form').append($('<input/>', {
           name: input.name,
           id: 'some-id',
-          placeholder: input.placeholder
+          placeholder: input.placeholder,
+          type: input.type,
       }).css("width", input.width));
 
     }
