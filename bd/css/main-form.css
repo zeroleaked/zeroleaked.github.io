@@ -102,9 +102,10 @@ form>* {
 
 #next1 {
   transform: translate(-5vw, -30vw);
-  /* position: fixed;
-  bottom: 10vw;
-  right: 10vw; */
+}
+
+#next1:active {
+  transform: translate(-3vw, -28vw);
 }
 
 #second-form .title {
