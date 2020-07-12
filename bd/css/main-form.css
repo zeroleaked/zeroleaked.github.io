@@ -341,7 +341,7 @@ button:active {
   transform: translate(2vw, 2vw);
 }
 
-a:active {
+a.dot:active {
   box-shadow: 0 0;
   transform: translate(2vw, 2vw);
 }
