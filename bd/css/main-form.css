@@ -338,4 +338,15 @@ a {
 
 button:active {
   box-shadow: 0 0;
+  transform: translate(2vw, 2vw);
+}
+
+a:active {
+  box-shadow: 0 0;
+  transform: translate(2vw, 2vw);
+}
+
+#submit-form:active {
+  box-shadow: 0 0;
+  transform: translate(2vw, 2vw);
 }
