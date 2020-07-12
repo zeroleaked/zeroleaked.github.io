@@ -331,3 +331,11 @@ form>* {
   width: 18vw;
   padding: 4vw
 }
+
+a {
+  cursor: default;
+}
+
+button:active {
+  box-shadow: 0 0;
+}

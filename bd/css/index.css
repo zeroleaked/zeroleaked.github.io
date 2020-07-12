@@ -27,6 +27,7 @@ img {
 }
 
 a {
+  cursor: default;
   height: 16vw;
   width: 60vw;
   padding: 3vw;
@@ -40,6 +41,10 @@ a {
   font-style: italic;
   /* font-family: 'Roboto Condensed'; */
   font-weight: 900;
+}
+
+a:active {
+  box-shadow: 0 0;
 }
 
 span.desc {
