@@ -110,11 +110,12 @@ form>* {
 
 #second-form .title {
   text-align: center;
+  height: 2vw;
   width: 100%;
-  margin: 4vw 0 0 0;
-  font-family: 'Roboto';
+  margin: 6vw 0 0 0;
   font-size: 4vw;
   font-style: italic;
+  font-weight: bold;
 }
 
 #second-form input {
