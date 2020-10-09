@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/peslit/static/css/main.e0447824.chunk.css",
+    "main.js": "/peslit/static/js/main.36094278.chunk.js",
+    "main.js.map": "/peslit/static/js/main.36094278.chunk.js.map",
+    "runtime-main.js": "/peslit/static/js/runtime-main.ae458c8c.js",
+    "runtime-main.js.map": "/peslit/static/js/runtime-main.ae458c8c.js.map",
+    "static/js/2.a413f639.chunk.js": "/peslit/static/js/2.a413f639.chunk.js",
+    "static/js/2.a413f639.chunk.js.map": "/peslit/static/js/2.a413f639.chunk.js.map",
+    "index.html": "/peslit/index.html",
+    "precache-manifest.428f2b70b8e7056b1e122dd0f1c0377d.js": "/peslit/precache-manifest.428f2b70b8e7056b1e122dd0f1c0377d.js",
+    "service-worker.js": "/peslit/service-worker.js",
+    "static/css/main.e0447824.chunk.css.map": "/peslit/static/css/main.e0447824.chunk.css.map",
+    "static/js/2.a413f639.chunk.js.LICENSE.txt": "/peslit/static/js/2.a413f639.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/peslit/static/media/logo.5d5d9eef.svg",
+    "static/media/style.scss": "/peslit/static/media/pattern.429f74b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae458c8c.js",
+    "static/js/2.a413f639.chunk.js",
+    "static/css/main.e0447824.chunk.css",
+    "static/js/main.36094278.chunk.js"
+  ]
+}
